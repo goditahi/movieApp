@@ -6,8 +6,8 @@ import App from './App.jsx'
 import './index.css'
 import theme from './theme.js';
 import {Home,Movies,Shows,Search,Watchlist, DetailPage} from './pages/index.js'
-import { AuthProvider } from './context/authProvider.jsx';
 import Protected from './components/routes/Protected.jsx';
+import { AuthProvider } from './context/authProvider.jsx';
 
 
 const router = createBrowserRouter([

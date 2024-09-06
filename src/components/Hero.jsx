@@ -46,26 +46,7 @@ const FullScreenCarouselWithText = () => {
   
     const height = useBreakpointValue({ base: '70vh', md: '70vh' });
   
-    // const slides = [
-    //   {
-    //     id: 1,
-    //     imageUrl: 'https://via.placeholder.com/1920x1080',
-    //     alt: 'Slide 1',
-    //     text: 'Welcome to our website',
-    //   },
-    //   {
-    //     id: 2,
-    //     imageUrl: 'https://via.placeholder.com/1920x1080',
-    //     alt: 'Slide 2',
-    //     text: 'Discover amazing features',
-    //   },
-    //   {
-    //     id: 3,
-    //     imageUrl: 'https://via.placeholder.com/1920x1080',
-    //     alt: 'Slide 3',
-    //     text: 'Join our community',
-    //   },
-    // ];
+    
 
     if (loading) {
       return (
