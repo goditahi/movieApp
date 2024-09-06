@@ -11,7 +11,7 @@ import {
 import { Link } from "react-router-dom";
 import { imagePath } from "../services/api";
 import { useFirestore } from "../services/firestore";
-import { useAuth } from "../context/useAuth";
+import { useAuth } from '../context/useAuth';
 import {
   CheckIcon,
   StarIcon,

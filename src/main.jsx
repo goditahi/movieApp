@@ -7,7 +7,7 @@ import './index.css'
 import theme from './theme.js';
 import {Home,Movies,Shows,Search,Watchlist, DetailPage} from './pages/index.js'
 import Protected from './components/routes/Protected.jsx';
-import { AuthProvider } from './context/AuthProvider.jsx';
+import { AuthProvider } from './context/AuthProvider.jsx'
 
 
 const router = createBrowserRouter([
